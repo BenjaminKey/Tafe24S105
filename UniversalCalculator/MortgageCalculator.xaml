@@ -9,6 +9,22 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-
-    </Grid>
+		<StackPanel Background="Beige">
+			<StackPanel>
+				<Image x:Name="abacusImage" Source="/Images/abacus.PNG" Margin="10,10,10,10" HorizontalAlignment="Right" Stretch="None"></Image>
+			</StackPanel>
+			<StackPanel Orientation="Horizontal">
+				<StackPanel Width="250">
+					<TextBlock x:Name="titleTextBlock" Width="200" TextAlignment="Center" Foreground="#FF2B1295" FontWeight="Bold" Text="Universal Calculator" FontSize="20" Margin="10"></TextBlock>
+					<Button x:Name="math2CalculatorButton" Width="150" Margin="0,0,0,10" Content="Math Calculator" HorizontalAlignment="Center" Click="math2CalculatorButton_Click" ></Button>
+					<Button x:Name="mortgageCalculator2Button" Width="150" Margin="0,0,0,10" Content="Mortgage Calculator" HorizontalAlignment="Center" Click="mortgageCalculator2Button_Click" ></Button>
+					<Button x:Name="currencyConverter2Button" Width="150" Margin="0,0,0,10" Content="Currency Converter" HorizontalAlignment="Center" Click="currencyConverter2Button_Click"></Button>
+					<Button x:Name="exit2Button" Width="150" Margin="0,0,0,10" Content="Exit" HorizontalAlignment="Center" Click="exit2Button_Click" ></Button>
+				</StackPanel>
+				<StackPanel>
+					<TextBlock x:Name="mortgageTextBlock" Width="200" TextAlignment="Center" Foreground="#FF2B1295" FontWeight="Bold" FontSize="20" Margin="10" Text="Mortgage Calculator"></TextBlock>
+				</StackPanel>
+			</StackPanel>
+		</StackPanel>
+	</Grid>
 </Page>
