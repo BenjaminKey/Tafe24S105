@@ -24,6 +24,36 @@
 				<StackPanel>
 					<TextBlock x:Name="mortgageTextBlock" Width="200" TextAlignment="Center" Foreground="#FF2B1295" FontWeight="Bold" FontSize="20" Margin="10" Text="Mortgage Calculator"></TextBlock>
 				</StackPanel>
+				<StackPanel>
+					<StackPanel Orientation="Horizontal" Margin="0,40,0,0">
+						<TextBlock x:Name="principalTextBlock" Text="Principle borrow $:" Margin="10" Width="150" TextAlignment="Right" VerticalAlignment="Center"></TextBlock>
+						<TextBox x:Name="principalTextBox" Width="100" Margin="10" PlaceholderText="1,000,000"></TextBox>
+					</StackPanel>
+					<StackPanel Orientation="Horizontal">
+						<TextBlock x:Name="yearsTextBlock" Text="Years:" Margin="10" Width="150" TextAlignment="Right" VerticalAlignment="Center"></TextBlock>
+						<TextBox x:Name="yearsTextBox" Width="100" Margin="10" PlaceholderText="30"></TextBox>
+					</StackPanel>
+					<StackPanel Orientation="Horizontal">
+						<TextBlock x:Name="monthsTextBlock" Text="Months:" Margin="10" Width="150" TextAlignment="Right" VerticalAlignment="Center"></TextBlock>
+						<TextBox x:Name="monthsTextBox" Width="100" Margin="10" PlaceholderText="0"></TextBox>
+					</StackPanel>
+					<StackPanel Orientation="Horizontal">
+						<TextBlock x:Name="yearlyInterestTextBlock" Text="Yearly Interest Rate %:" Margin="10" Width="150" TextAlignment="Right" VerticalAlignment="Center"></TextBlock>
+						<TextBox x:Name="yearlyInterestTextBox" Width="100" Margin="10" PlaceholderText="3.5"></TextBox>
+					</StackPanel>
+					<StackPanel Orientation="Horizontal">
+						<TextBlock x:Name="monthlyInterestTextBlock" Text="Monthly Interest Rate %:" Margin="10" Width="150" TextAlignment="Right" VerticalAlignment="Center"></TextBlock>
+						<TextBox x:Name="monthlyInterestTextBox" Width="100" Margin="10" IsReadOnly="True"></TextBox>
+					</StackPanel>
+					<StackPanel Orientation="Horizontal">
+						<TextBlock x:Name="repaymentTextBlock" Text="Monthly Repayment $:" Margin="10" Width="150" TextAlignment="Right" VerticalAlignment="Center"></TextBlock>
+						<TextBox x:Name="repaymentTextBox" Width="100" Margin="10" IsReadOnly="True"></TextBox>
+					</StackPanel>
+					<StackPanel Width="270">
+						<Button x:Name="calcButton" Width="100" Margin="170,10,0,10" Content="Calculate" HorizontalAlignment="Right" Click="calcButton_Click" ></Button>
+						<Button x:Name="exit4Button" Width="100" Margin="170,0,0,10" Content="Exit" HorizontalAlignment="Right" Click="exit4Button_Click" ></Button>
+					</StackPanel>
+				</StackPanel>
 			</StackPanel>
 		</StackPanel>
 	</Grid>
