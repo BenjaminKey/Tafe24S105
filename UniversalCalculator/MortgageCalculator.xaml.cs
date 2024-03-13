@@ -34,20 +34,20 @@ namespace Calculator
 			Frame.Navigate(typeof(MainPage));
 		}
 
-		private void mortgageCalculator2Button_Click(object sender, RoutedEventArgs e)
-		{
-			Frame.Navigate(typeof(MortgageCalculator));
-		}
+		//private void mortgageCalculator2Button_Click(object sender, RoutedEventArgs e)
+		//{
+		//	Frame.Navigate(typeof(MortgageCalculator));
+		//}
 
 		private void currencyConverter2Button_Click(object sender, RoutedEventArgs e)
 		{
 			Frame.Navigate(typeof(CurrencyConverter));
 		}
 
-		private void exit2Button_Click(object sender, RoutedEventArgs e)
-		{
-			Frame.Navigate(typeof(MainMenu));
-		}
+		//private void exit2Button_Click(object sender, RoutedEventArgs e)
+		//{
+		//	Frame.Navigate(typeof(MainMenu));
+		//}
 
 		private async void calcButton_Click(object sender, RoutedEventArgs e)
 		{
