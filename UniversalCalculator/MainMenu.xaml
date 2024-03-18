@@ -15,6 +15,7 @@
 			<Button x:Name="mathCalculatorButton" Width="150" Margin="0,0,0,10" Content="Math Calculator" HorizontalAlignment="Center" Click="mathCalculatorButton_Click"></Button>
 			<Button x:Name="mortgageCalculatorButton" Width="150" Margin="0,0,0,10" Content="Mortgage Calculator" HorizontalAlignment="Center" Click="mortgageCalculatorButton_Click"></Button>
 			<Button x:Name="currencyConverterButton" Width="150" Margin="0,0,0,10" Content="Currency Converter" HorizontalAlignment="Center" Click="currencyConverterButton_Click"></Button>
+			<Button x:Name="tripCalculatorButton" Width="150" Margin="0,0,0,10" Content="Trip Calculator" HorizontalAlignment="Center" Click="tripCalculatorButton_Click"/>
 			<Button x:Name="exitButton" Width="150" Margin="0,0,0,10" Content="Exit" HorizontalAlignment="Center" Click="exitButton_Click"></Button>
 		</StackPanel>
 
